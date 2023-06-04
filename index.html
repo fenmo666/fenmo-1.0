@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>焚墨个人介绍</title>
+</head>
+ 
+<body onload="showtime();"> 
+    <div id="shijian"></div> 
+    <SCRIPT LANGVAGE="javascript"> 
+        function showtime() { 
+            var today = new Date(); 
+            var nian = today.getFullYear(); 
+            var yue = today.getMonth() + 1; 
+            var ri = today.getDate(); 
+            var day; 
+            var shi = today.getHours(); 
+            var fen = today.getMinutes(); 
+            var miao = today.getSeconds(); 
+            if (today.getDay() == 0) day = "星期日"; 
+            if (today.getDay() == 1) day = "星期一"; 
+            if (today.getDay() == 2) day = "星期二"; 
+            if (today.getDay() == 3) day = "星期三"; 
+            if (today.getDay() == 4) day = "星期四"; 
+            if (today.getDay() == 5) day = "星期五"; 
+            if (today.getDay() == 6) day = "星期六"; 
+            if (shi < 10) shi = "0" + shi; 
+            if (fen < 10) fen = "0" + fen; 
+            if (miao < 10) miao = "0" + miao; 
+            let time_el = document.querySelector("#shijian");
+            time_el.innerHTML = "<h2>今天是:" + nian + "年" + yue + "月" + ri + " 日 " + day + "<br>" + "现在时刻:" + shi + ":" + fen + ":" + miao + "</h2 >";
+            
+            time_el.style.color = "red";
+
+            setTimeout(showtime, 1000); 
+        }
+    </SCRIPT> 
+    </div><img src="C:\Users\86151\Pictures\Saved Pictures\FM (2).jpg" akt="头像" width="76" htight="76">
+    
+</body>
+<p>你好，我是<b>焚墨</b>，欢迎来到我的世界。</p>
+<p>接下来我将为你介绍我自己。</p>
+<p>不可搜索：<input><i><b>Mr.fool</b></i></p>
+</div><img src="D:\UpupooWallpaper\2000422983\previewFix.jpg" akt="头像" width="500" htight="76">
+<p style="color: rgb(13, 207, 228)">还真是一个大笨蛋呢，说了不可搜索你偏不信</p>
+<p>我是个有着远大理想的人，但是我没有与之相匹配的毅力，我总是想得很多，但是做的时候却是一个<b>差不多先生</b></p>
+<p>对此我感到很苦恼，想过很多办法去解决，但是我却连第一步都没有迈出去...</p>
+<hr color="red" >
+<h2 style="color: crimson;text-align:center">接下来我将为你介绍一下我的一些<b>经历</b></h2>
+<b>我出生在四川一个偏远的小山村里面，这里很落后，无论是教育还娱乐等等都十分的落后。</b>
+<b style="color:aqua">庆幸的是我出生在一个好的时代，这个时代有一个伟大的发明：互联网。</b>
+<p>因为互联网我才能看见外面世界的冰山一角，但就是这冰山一角让我变得不甘于平凡且有了改变这份平凡的资本。</p>
+<P>互联网让我得以接触到更多的以前不曾接触过的事物，期间我写过小说，也通过互联网挣到了钱。</P>
+<P>虽然不多，但是也确实的让我成长了。让我找到了我想要做的事情即我找到了自己的道。</P>
+<p>同时，它让我交到了更多的朋友，寻找到了很多的老师。此处着重讲一下带我进入编程大门的老师---<b><u style="color: darkred;">康文昌老师</u></b></p>
+<p style="color:red"><center><b>他是一个智慧的，一个善良的人，一个无私的人，同时康老师更是一位好的老师！</b></center></p>
+<b>我第一次认识到这位好老师是通过短视频，当时老师的几句话便让我有了醍醐灌顶的感觉，也是为我找到我的道给出了一定的启发。</b>
+<b>包括这个小网站也是通过和康老师学习之后我才能写出来，所以我发自内心的感谢这位无私的老师！</b>
+<a href="https://www.bilibili.com/video/BV1eF411x7g5/?spm_id_from=333.999.0.0" target="_blank">点击我访问康老师b站主页</a>
+<p>如果你也想要学习编程的话，不妨跟着康老师学习试一下，真的很棒！</p>
+<hr size="5" color="yellow">
+<h2><center>分享一下我自己写的一篇文章：</center></h2>
+<a href="C:\Users\86151\Desktop\焚墨文集\道" target="_blank">启道两篇，希望我的观点对你有所帮助吧！</a>
+<p>以后有了新的关于这方面的内容也会持续更新的。更多内容的话可以加入QQ频道进行阅读</p>
+</body>
+</html>
